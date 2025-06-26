@@ -82,7 +82,7 @@
                 <li class="sidebar-list">
                     <a class="sidebar-link sidebar-title" href="#">
                         <i data-feather="users"></i>
-                        <span>Data Meja Restorantt</span>
+                        <span>Data Meja Restorant</span>
                     </a>
                     <ul class="sidebar-submenu">
                         <li>

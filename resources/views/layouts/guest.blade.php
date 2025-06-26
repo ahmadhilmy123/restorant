@@ -124,10 +124,9 @@
             <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
                 <span class="fs-3 fw-bold">🍣 Restorant</span>
             </a>
-            <button class="btn btn-warning text-white me-2 px-5 fw-500"
-                onclick="location.href='http://127.0.0.1:8000/reservation/step-one'" type="button"> <i
-                    class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat
-                Reservasi</button>
+            <a href="{{ route('reservations.step.one') }}" class="btn btn-warning text-white me-2 px-5 fw-500" role="button">
+    <i class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat Reservasi
+        </a>
         </div>
     </header>
 
