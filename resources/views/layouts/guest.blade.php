@@ -70,10 +70,9 @@
                     </ul>
                     <hr />
                     <div class="d-grid gap-2">
-                        <button class="btn btn-warning text-white me-2 px-5 fw-500"
-                            onclick="location.href='http://127.0.0.1:8000/reservation/step-one'" type="button"> <i
-                                class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat
-                            Reservasi</button>
+                          <a href="{{ route('reservations.step.one') }}" class="btn btn-warning text-white me-2 px-5 fw-500" role="button">
+    <i class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat Reservasi
+        </a>
                     </div>
                 </div>
             </div>
